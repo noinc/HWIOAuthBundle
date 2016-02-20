@@ -11,8 +11,8 @@
 
 namespace HWI\Bundle\OAuthBundle\OAuth\ResourceOwner;
 
-use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 use Buzz\Message\RequestInterface as HttpRequestInterface;
+use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
 /**
  * InstagramResourceOwner
