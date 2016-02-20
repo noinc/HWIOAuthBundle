@@ -1,4 +1,4 @@
-<?php
+-<?php
 
 /*
  * This file is part of the HWIOAuthBundle package.
@@ -94,7 +94,9 @@ class FOSUBRegistrationFormHandler implements RegistrationFormHandlerInterface
         $form->setData($this->setUserInformation($user, $userInformation));
 
         if ($request->isMethod('POST')) {
-            $form->bind($request);
+
+            // Moved from bind to handleRequest for symfony 3.0
+            $form->handleRequest($request);
 
             return $form->isValid();
         }
