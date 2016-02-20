@@ -23,7 +23,6 @@ use HWI\Bundle\OAuthBundle\OAuth\ResourceOwnerInterface;
 use HWI\Bundle\OAuthBundle\OAuth\Response\PathUserResponse;
 use HWI\Bundle\OAuthBundle\OAuth\Response\UserResponseInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
-use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Security\Core\Exception\AuthenticationException;
 use Symfony\Component\Security\Http\HttpUtils;
 
